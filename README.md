@@ -7,3 +7,10 @@ Splunk Cloud Platform administrators can use the ACS CLI to perform common admin
 ### Installing
 
 Use a prebuilt binary [from the releases page](https://github.com/splunk/acs-cli/releases) for your operating system.
+
+On MacOS and Linux, you can install acs using homebrew:
+
+```
+$ brew tap splunk/tap 
+$ brew install acs
+```
