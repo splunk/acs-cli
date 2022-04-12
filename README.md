@@ -15,16 +15,6 @@ $ brew tap splunk/tap
 $ brew install acs
 ```
 
-Note: If an older version is already installed, and you wish to upgrade to latest, please run:
-```
-$ brew reinstall acs
-```
-or
-```
-$ brew uninstall acs
-$ brew install acs
-```
-
 Run 'acs version' to verify you are running the latest CLI version
 
 Run ‘acs’ or ‘acs –help’ to get started.
