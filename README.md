@@ -26,3 +26,4 @@ ACS CLI simplifies access to multiple Splunk Cloud Platform deployments (stacks)
 Here’s a sample workflow for initial CLI configuration before running CLI operations for ACS APIs.
 
 ![ACS CLI_ User Guide](https://user-images.githubusercontent.com/95648640/156843519-5825eec1-3f6c-484e-882d-f3a2b18fefd2.jpg)
+Please refer to [Splunk ACS CLI docs](https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSCLI) for more help.
