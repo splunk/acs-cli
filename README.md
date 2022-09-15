@@ -1,18 +1,22 @@
 # Splunk ACS CLI
 Admin Config Service CLI for managing splunk cloud stacks.
 
-The Admin Config Service (ACS) is a cloud-native API that provides programmatic self-service administration capabilities for Splunk Cloud Platform.
-Splunk Cloud Platform administrators can use the ACS CLI to perform common administrative tasks without assistance from Splunk Support.
+The Admin Config Service (ACS) provides a command line interface (CLI) that lets you perform many Splunk Cloud Platform configuration and management tasks in a self-service manner. You can use the CLI to run corresponding ACS API operations from the command line, without having to know specific API endpoint details.
 
 ### Installing
 
 Use a prebuilt binary [from the releases page](https://github.com/splunk/acs-cli/releases) for your operating system.
 
-On MacOS and Linux, you can install acs using homebrew:
+On MacOS and Linux, you can install `acs` using homebrew:
 
 ```
 $ brew tap splunk/tap 
 $ brew install acs
+```
+
+On Windows, you can install `acs` using winget:
+```
+$ winget install acs-cli
 ```
 
 Run 'acs version' to verify you are running the latest CLI version
